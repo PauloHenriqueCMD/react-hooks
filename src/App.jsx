@@ -19,11 +19,12 @@
 
 // }
 
-import contador from "./components/contador/contador";
-export default function Contador(){
+import Contador from './components/Contador/Contador';
+
+export default function App() {
     return(
         <>
-           <contador/>
+            <Contador/>
         </>
     )
 }
